@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+
+.container {
+  width: 70%;
+  margin: 50px auto;
+  h1{
+   margin: 20px 0;
+  }
+}
+
+#create {
+ padding: 5px 10px;
+ border: 1px solid red;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+  margin: 0 5px;
+  &:hover {
+    color: blue;
+  }
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  li {
+    margin: 20px 20px;
+    flex-basis: calc(100% / 4);
+  }
+}
